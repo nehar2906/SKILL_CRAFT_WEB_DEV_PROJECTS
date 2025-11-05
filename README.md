@@ -1,10 +1,10 @@
 # 💻 SkillCraft Technology – Web Development Internship (November 2025)
 
-### 👩‍💻 Intern: Neha R  
-### 📅 Duration: 1st Nov – 30th Nov, 2025  
-### 🏢 Organization: SkillCraft Technology  
-### 📂 Domain: Web Development  
-### 🌍 Repository: [SkillCraft_WebDev_Projects](https://github.com/nehar2906/SkillCraft_WebDev_Projects)
+# 👩‍💻 Intern: Neha R  
+# 📅 Duration: 1st Nov – 30th Nov, 2025  
+# 🏢 Organization: SkillCraft Technology  
+# 📂 Domain: Web Development  
+# 🌍 Repository: [SkillCraft_WebDev_Projects](https://github.com/nehar2906/SkillCraft_WebDev_Projects)
 
 ---
 
