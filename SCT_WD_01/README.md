@@ -12,7 +12,7 @@ To create a simple, responsive landing page that showcases handmade crafts, pott
 ### ⚙️ Tools Used:
 - HTML  
 - CSS  
-- JavaScript  
+- JavaScript 
 
 ### ✨ Features:
 - Fixed navigation bar that changes color on scroll  
