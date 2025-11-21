@@ -1,13 +1,16 @@
 # ⏱ SCT_WD_02 – Stopwatch Web Application
 
-**Project:** SkillCraft Technology – Web Development Internship (November 2025)  
-**Author:** Neha R
+📘 Internship:
+SkillCraft Technology – Web Development Internship (November 2025)
 
+🖥 Project Title:
+Stopwatch – A Color Change Themed Web App
 ---
 
 ## 🔖 Project Overview
 A simple, elegant, and interactive **Stopwatch Web Application** built using HTML, CSS, and JavaScript.  
-This project demonstrates DOM manipulation, timer logic, event handling, and UI/UX polish — including dynamic two-color gradient backgrounds that change based on user actions (Start, Pause/Resume, Reset, Lap). The stopwatch also records lap times (up to many laps) and displays milliseconds for higher precision.
+This project demonstrates DOM manipulation, timer logic, event handling, and UI/UX polish — including dynamic two-color gradient backgrounds that change based on user actions (Start, Pause/Resume, Reset, Lap).
+The stopwatch also records lap times (up to many laps) and displays milliseconds for higher precision.
 
 ---
 
