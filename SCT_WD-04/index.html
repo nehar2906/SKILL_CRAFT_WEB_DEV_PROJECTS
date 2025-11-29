@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Neha's Personal To-Do Journal</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main class="wrap">
+    <header class="header">
+      <div class="brand">
+        <div class="logo">📝</div>
+        <div>
+          <h1>My To-Do List Journal</h1>
+          <p class="subtitle">Handmade-style To-Do Cards — gentle productivity ✨</p>
+        </div>
+      </div>
+
+      <div class="controls">
+        <button id="newTaskBtn" class="btn primary">+ New Task</button>
+      </div>
+    </header>
+
+    <section class="board">
+      <!-- Add Task Form (hidden, uses modal for editing/creating) -->
+      <div class="column">
+        <h2>To Do</h2>
+        <div id="todoList" class="cards"></div>
+      </div>
+
+      <div class="column">
+        <h2>Completed</h2>
+        <div id="doneList" class="cards"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div id="modal" class="modal hidden">
+    <div class="modal-card">
+      <h3 id="modalTitle">New Task</h3>
+
+      <label>
+        Title
+        <input id="taskTitle" type="text" placeholder="e.g. Paint portrait for mom" />
+      </label>
+
+      <label>
+        Description
+        <textarea id="taskDesc" rows="3" placeholder="Optional details..."></textarea>
+      </label>
+
+      <div class="row">
+        <label>
+          Date
+          <input id="taskDate" type="date" />
+        </label>
+        <label>
+          Time
+          <input id="taskTime" type="time" />
+        </label>
+      </div>
+
+      <div class="modal-actions">
+        <button id="saveTaskBtn" class="btn primary">Save</button>
+        <button id="cancelTaskBtn" class="btn ghost">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <template id="cardTpl">
+    <article class="card">
+      <div class="card-top">
+        <div class="card-title"></div>
+        <div class="card-actions">
+          <button class="action edit">Edit</button>
+          <button class="action delete">Delete</button>
+        </div>
+      </div>
+      <p class="card-desc"></p>
+      <div class="meta">
+        <span class="datetime"></span>
+        <label class="complete-label"><input type="checkbox" class="complete-checkbox"> Done</label>
+      </div>
+    </article>
+  </template>
+
+  <script src="script.js"></script>
+</body>
+</html>
