@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Quiz — General Knowledge | Eloura</title>
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="sky-bg">
+
+  <main class="page">
+    <header class="top">
+      <div class="brand">
+        <span class="logo">🧠</span>
+        <h1>General Knowledge Quiz</h1>
+      </div>
+      <div class="progress-wrap">
+        <div id="progressText">Question 1 / 10</div>
+        <div class="progress">
+          <div id="progressBar" class="progress-bar"></div>
+        </div>
+      </div>
+    </header>
+
+    <section class="card" id="quizCard">
+      <div class="question-wrap">
+        <h2 id="questionTitle">Loading question...</h2>
+      </div>
+
+      <div class="options" id="optionsList">
+        <!-- buttons injected here -->
+      </div>
+
+      <div class="controls">
+        <button id="nextBtn" class="btn primary" disabled>Next</button>
+        <button id="quitBtn" class="btn ghost">Quit</button>
+      </div>
+    </section>
+
+    <section class="card results hidden" id="resultCard">
+      <h2>Your Score</h2>
+      <div class="score">
+        <div id="scoreNumber">0 / 10</div>
+        <p id="scorePercent">0%</p>
+      </div>
+      <p id="feedbackText">Nice work!</p>
+      <div class="controls">
+        <button id="restartBtn" class="btn primary">Play Again</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
