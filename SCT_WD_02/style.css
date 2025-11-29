@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  transition: background 0.8s ease-in-out;
+  color: #333;
+}
+
+.container {
+  text-align: center;
+  background: #fff;
+  padding: 50px 60px;
+  border-radius: 200px; /* 🍉 Oval shape */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  width: 950px;
+  transition: all 0.3s ease;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #f3722c;
+  font-size: 2rem;
+}
+
+.timer {
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+  font-family: "Orbitron", monospace;
+  transform: skewX(-8deg);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #f9a826;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s;
+}
+
+button:hover {
+  background: #f3722c;
+  transform: scale(1.05);
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.laps {
+  text-align: center;
+  max-height: 160px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* center laps horizontally */
+}
+
+.laps h3 {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+#lapsList {
+  list-style: none;
+  width: 85%; /* slightly narrower so scrollbar fits inside */
+  max-height: 140px;
+  overflow-y: auto;
+  padding-right: 5px;
+}
+
+#lapsList li {
+  background: #fff6ec;
+  margin: 6px 0;
+  padding: 8px 14px;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  color: #333;
+  text-align: center; /* center align text */
+  width: 100%;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+footer {
+  margin-top: 25px;
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+/* 🎨 Background Themes */
+.orange-bg {
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+}
+.green-bg {
+  background: linear-gradient(135deg, #c4f8aa 0%, #40b908 100%);
+}
+.blue-bg {
+  background: linear-gradient(135deg, #f8f89a 0%, #e0c602 100%);
+}
+.purple-bg {
+  background: linear-gradient(135deg, #c471f5 0%, #fa71cd 100%);
+}
+.pink-bg {
+  background: linear-gradient(135deg, #f4696e 0%, #fad0c4 100%);
+}
+.red-bg {
+  background: linear-gradient(135deg, #f5576c 0%, #ec62fb 100%);
+}
+.yellow-bg {
+  background: linear-gradient(135deg, #95f4fb 0%, #5097fb 100%);
+}
+.sea-blue-bg {
+  background: linear-gradient(135deg, #f98c49 0%, #161f28 100%);
+}
+.turquoise-bg {
+  background: linear-gradient(135deg, #fcf960 0%, #56f71b 100%);
+}
+.deep-red-bg {
+  background: linear-gradient(135deg, #9c0701 0%, #f9707d 100%);
+}
+.golden-bg {
+  background: linear-gradient(135deg, #ffd780 0%, #9f5303 100%);
+}
+.black-grey-bg {
+  background: linear-gradient(135deg, #1e1f1f 0%, #8d9196 100%);
+}
+#lapsList::-webkit-scrollbar {
+  width: 8px;
+}
+
+#lapsList::-webkit-scrollbar-thumb {
+  background: #f9a826;
+  border-radius: 10px;
+}
+
+#lapsList::-webkit-scrollbar-track {
+  background: #ffe6c0;
+}
+
+
+  
