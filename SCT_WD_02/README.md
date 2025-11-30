@@ -34,3 +34,5 @@ The stopwatch also records lap times (up to many laps) and displays milliseconds
 
 ### 🧾 Task Description (as per SkillCraft):
 Create an interactive & user friendly **Stopwatch Web Application**. Implement functions for starting, pausing and resetting the stopwatch, as well as tracking and displaying time laps
+
+// updated
