@@ -26,3 +26,5 @@ To create a simple, responsive landing page that showcases handmade crafts, pott
 
 ### 🧾 Task Description (as per SkillCraft):
 Create an interactive **Responsive Landing Page** with a navigation menu that changes color or style when scrolled or hovered. The page should be fully responsive and visually appealing.
+
+// updated
