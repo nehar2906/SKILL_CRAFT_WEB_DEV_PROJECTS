@@ -31,3 +31,6 @@ To develop an engaging and dynamic quiz application where users can answer multi
 ### 🧾 Task Description (as per SkillCraft)
 
 Develop an interactive quiz web application that allows users to answer questions, navigate between them, track their score, and view the final results. The application should include multiple-choice questions, score calculation, and responsive design with smooth UI interactions.
+
+### Live Link: 
+🔗 [View Project](https://nehar2906.github.io/SKILL_CRAFT_WEB_DEV_PROJECTS/SCT_WD_03/)
