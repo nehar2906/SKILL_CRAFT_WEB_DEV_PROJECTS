@@ -21,7 +21,7 @@ Each task focuses on practical front-end web development skills — from buildin
 | **01** | 🌸 Responsive Landing Page | A responsive homepage for showcasing handmade crafts, paintings, and pottery with an interactive navigation bar and hover effects. | 🔗 [View Project](https://nehra2906.github.io/SKILL_CRAFT_WEB_DEV_PROJECTS/SCT_WD_01/) |
 | **02** | ⏱ Stopwatch Web App | A simple web-based stopwatch with start, pause, reset, and lap functionalities. | 🔗 [View Project](https://nehra2906.github.io/SKILL_CRAFT_WEB_DEV_PROJECTS/SCT_WD_02/) |
 | **03** | 🎮 Quiz Game Application | An interactive quiz app that displays questions, accepts answers, and shows the final score. | 🔗 [View Project](https://nehra2906.github.io/SKILL_CRAFT_WEB_DEV_PROJECTS/SCT_WD_03/) |
-| **04** | 📝 To-Do Web Application | A basic to-do list app that allows adding, editing, marking, and deleting daily tasks. | 🔗 [View Project](https://nehra2906.github.io/SKILL_CRAFT_WEB_DEV_PROJECTS/SCT_WD_04/) |
+| **04** | 📝 To-Do Web Application | A basic to-do list app that allows adding, editing, marking, and deleting daily tasks. | 🔗 [View Project] (https://nehra2906.github.io/SKILL_CRAFT_WEB_DEV_PROJECTS/SCT_WD_04/)|
 
 ---
 
@@ -47,3 +47,4 @@ All tasks are self-developed and deployed via **GitHub Pages** as per the intern
 ---
 
 ⭐ *Designed & Developed by [Neha R](https://github.com/nehar2906) with ❤️ and curiosity for clean, creative code!*
+
