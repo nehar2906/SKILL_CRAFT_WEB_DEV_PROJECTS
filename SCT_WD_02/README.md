@@ -29,8 +29,6 @@ The stopwatch also records lap times (up to many laps) and displays milliseconds
 - Responsive, curved (oval) UI container for a friendly aesthetic  
 - Clean, explainable JavaScript logic (easy to present in demos)
 
-### 🔗 Live Demo: 
-🔗 [Click Here to View Project](https://nehar2906.github.io/SkillCraft_WebDev_Projects/SCT_WD_02/) |
 
 ### 🧾 Task Description (as per SkillCraft):
 Create an interactive & user friendly **Stopwatch Web Application**. Implement functions for starting, pausing and resetting the stopwatch, as well as tracking and displaying time laps
