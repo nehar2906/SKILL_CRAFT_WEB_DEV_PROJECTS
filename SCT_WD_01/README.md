@@ -9,7 +9,7 @@ SkillCraft Technology – Web Development Internship (November 2025)
 ### 🧠 Objective:
 To create a simple, responsive landing page that showcases handmade crafts, pottery, paintings & more with an elegant layout and interactive elements.
 
-### ⚙️ Tools Used:
+### ⚙️ Tools Used: 
 - HTML  
 - CSS  
 - JavaScript 
